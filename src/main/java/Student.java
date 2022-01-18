@@ -8,5 +8,12 @@ class Student
     {
         System.out.println("Student Created");
     }
+    
+    //Parametrized Constructor
+    Student(int a, String str)
+    {
+        rollno=a;
+        name=str;
+    }
 
 }
