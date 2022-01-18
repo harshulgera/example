@@ -16,4 +16,9 @@ class Student
         name=str;
     }
 
+    public int displayRollNo()
+    {
+        return rollno;
+    }
+
 }
