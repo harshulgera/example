@@ -15,5 +15,10 @@ class Student
         rollno=a;
         name=str;
     }
+    
+    public String toString(int a, String str)
+    {
+        return "My Name is"+str+" ,My Roll No is-"+a;
+    }
 
 }
